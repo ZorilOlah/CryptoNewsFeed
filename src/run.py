@@ -11,7 +11,7 @@ from datasets import load_metric
 from evaluation.evaluation import Results
 from collections import Counter
 
-titles_excel_file_path = str(Path(__file__).parent) + "/data/200_examples.csv"    
+titles_excel_file_path = str(Path(__file__).parent) + "/data/50_examples.csv"    
 data_dir = str(Path(__file__).parent) + "/data"
 device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
 tokenizer_yiyang = BertTokenizer.from_pretrained('yiyanghkust/finbert-tone') 
@@ -39,7 +39,7 @@ trainer.eval_model()
 training_results = Results(output = trainer.training_outputs)
 
 eval_results = Results(output = trainer.eval_outputs)
-print(f'Evaluation Results : {eval_results.results}')
+print(f'Evaluation Results : {eval_results.results["epoch_1"]["total"]}')
 
 model_name = 'test_model'
 
