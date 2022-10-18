@@ -1,0 +1,25 @@
+2022-10-14 11:41:30,566 INFO    MainThread:63906 [wandb_setup.py:_flush():68] Configure stats pid to 63906
+2022-10-14 11:41:30,568 INFO    MainThread:63906 [wandb_setup.py:_flush():68] Loading settings from /Users/zorilolah/.config/wandb/settings
+2022-10-14 11:41:30,568 INFO    MainThread:63906 [wandb_setup.py:_flush():68] Loading settings from /Users/zorilolah/Documents/CryptoNewsFeed/wandb/settings
+2022-10-14 11:41:30,568 INFO    MainThread:63906 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2022-10-14 11:41:30,568 INFO    MainThread:63906 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'src/run.py', 'program': '/Users/zorilolah/Documents/CryptoNewsFeed/src/run.py'}
+2022-10-14 11:41:30,568 INFO    MainThread:63906 [wandb_init.py:_log_setup():476] Logging user logs to /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221014_114130-1j7mwpek/logs/debug.log
+2022-10-14 11:41:30,569 INFO    MainThread:63906 [wandb_init.py:_log_setup():477] Logging internal logs to /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221014_114130-1j7mwpek/logs/debug-internal.log
+2022-10-14 11:41:30,569 INFO    MainThread:63906 [wandb_init.py:init():516] calling init triggers
+2022-10-14 11:41:30,569 INFO    MainThread:63906 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {'learning_rate': 2e-05, 'weight_decay': 0.01, 'batch_size': 5, 'epochs': 10}
+2022-10-14 11:41:30,569 INFO    MainThread:63906 [wandb_init.py:init():564] wandb.init() called when a run is still active
+2022-10-14 11:41:30,569 INFO    MainThread:63906 [wandb_watch.py:watch():51] Watching
+2022-10-14 11:46:11,632 INFO    MainThread:63906 [wandb_setup.py:_flush():68] Configure stats pid to 63906
+2022-10-14 11:46:11,634 INFO    MainThread:63906 [wandb_setup.py:_flush():68] Loading settings from /Users/zorilolah/.config/wandb/settings
+2022-10-14 11:46:11,634 INFO    MainThread:63906 [wandb_setup.py:_flush():68] Loading settings from /Users/zorilolah/Documents/CryptoNewsFeed/wandb/settings
+2022-10-14 11:46:11,634 INFO    MainThread:63906 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2022-10-14 11:46:11,634 INFO    MainThread:63906 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'src/run.py', 'program': '/Users/zorilolah/Documents/CryptoNewsFeed/src/run.py'}
+2022-10-14 11:46:11,635 INFO    MainThread:63906 [wandb_init.py:_log_setup():476] Logging user logs to /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221014_114611-1dtm1pwn/logs/debug.log
+2022-10-14 11:46:11,635 INFO    MainThread:63906 [wandb_init.py:_log_setup():477] Logging internal logs to /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221014_114611-1dtm1pwn/logs/debug-internal.log
+2022-10-14 11:46:11,635 INFO    MainThread:63906 [wandb_init.py:init():516] calling init triggers
+2022-10-14 11:46:11,635 INFO    MainThread:63906 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {'learning_rate': 2e-05, 'weight_decay': 0.001, 'batch_size': 5, 'epochs': 10}
+2022-10-14 11:46:11,635 INFO    MainThread:63906 [wandb_init.py:init():564] wandb.init() called when a run is still active
+2022-10-14 11:46:11,635 INFO    MainThread:63906 [wandb_watch.py:watch():51] Watching
+2022-10-14 11:50:52,234 WARNING MsgRouterThr:63906 [router.py:message_loop():77] message_loop has been closed

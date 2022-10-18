@@ -1,0 +1,21 @@
+2022-10-14 13:38:59,486 INFO    MainThread:72775 [wandb_setup.py:_flush():68] Configure stats pid to 72775
+2022-10-14 13:38:59,487 INFO    MainThread:72775 [wandb_setup.py:_flush():68] Loading settings from /Users/zorilolah/.config/wandb/settings
+2022-10-14 13:38:59,487 INFO    MainThread:72775 [wandb_setup.py:_flush():68] Loading settings from /Users/zorilolah/Documents/CryptoNewsFeed/wandb/settings
+2022-10-14 13:38:59,487 INFO    MainThread:72775 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2022-10-14 13:38:59,487 INFO    MainThread:72775 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'src/run.py', 'program': '/Users/zorilolah/Documents/CryptoNewsFeed/src/run.py'}
+2022-10-14 13:38:59,487 INFO    MainThread:72775 [wandb_init.py:_log_setup():476] Logging user logs to /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221014_133859-rqes8n9w/logs/debug.log
+2022-10-14 13:38:59,487 INFO    MainThread:72775 [wandb_init.py:_log_setup():477] Logging internal logs to /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221014_133859-rqes8n9w/logs/debug-internal.log
+2022-10-14 13:38:59,487 INFO    MainThread:72775 [wandb_init.py:init():516] calling init triggers
+2022-10-14 13:38:59,487 INFO    MainThread:72775 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {'optimizer': AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    initial_lr: 2e-05
+    lr: 2e-05
+    weight_decay: 0.01
+), 'num_epochs': 10, 'batch_size': 5, 'num_trainig_steps': 70, 'lr_scheduler': <torch.optim.lr_scheduler.LambdaLR object at 0x7fcb690de9a0>}
+2022-10-14 13:38:59,488 INFO    MainThread:72775 [wandb_init.py:init():564] wandb.init() called when a run is still active
+2022-10-14 13:38:59,488 INFO    MainThread:72775 [wandb_watch.py:watch():51] Watching
+2022-10-14 13:43:43,000 WARNING MsgRouterThr:72775 [router.py:message_loop():77] message_loop has been closed

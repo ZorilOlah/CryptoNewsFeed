@@ -1,0 +1,22 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.9.7",
+    "heartbeatAt": "2022-10-17T15:22:49.838119",
+    "startedAt": "2022-10-17T15:22:49.411137",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/zorilolah/Documents/CryptoNewsFeed/src/run_wandb_swipe.py",
+    "codePath": "src/run_wandb_swipe.py",
+    "git": {
+        "remote": "https://github.com/ZorilOlah/CryptoNewsFeed.git",
+        "commit": "d44013261f0475f229efe0edabc0156959e81979"
+    },
+    "email": "Zorilolah@gmail.com",
+    "root": "/Users/zorilolah/Documents/CryptoNewsFeed",
+    "host": "Zorils-MacBook-Pro.local",
+    "username": "zorilolah",
+    "executable": "/Users/zorilolah/anaconda3/envs/vit/bin/python"
+}
