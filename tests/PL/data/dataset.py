@@ -6,6 +6,7 @@ import torch
 from torch.utils.data import Dataset, DataLoader
 from collections import Counter
 from transformers import BertTokenizer, BertForSequenceClassification, AutoTokenizer, AutoModel, get_scheduler
+import os
 
 class TitlesDataset(Dataset):
     def __init__(self, 
@@ -55,6 +56,6 @@ def make_dataset(path : str,
     train_ds, val_ds = torch.utils.data.random_split(train_ds, [int(split_ratio * len(train_ds)), len(train_ds) - int(split_ratio * len(train_ds))])
 
     train_dl = torch.utils.data.DataLoader(train_ds, batch_size = train_batch_size, shuffle = True)
-    val_dl = torch.utils.data.DataLoader(val_ds, batch_size = val_batch_size, shuffle = True)
+    val_dl = torch.utils.data.DataLoader(val_ds, batch_size = val_batch_size,  shuffle = True)
     test_dl = torch.utils.data.DataLoader(test_ds, batch_size = test_batch_size, shuffle = True)
     return [train_dl, val_dl, test_dl, titles_dataset]

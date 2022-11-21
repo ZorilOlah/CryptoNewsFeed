@@ -30,7 +30,7 @@ tokenizer_yiyang = BertTokenizer.from_pretrained('yiyanghkust/finbert-tone')
 # }
 
 search_space = {
-    "learning_rate" : [1e-5, 2e-5],
+    "learning_rate" : [1e-5],
     "weight_decay" : [0.01],
     "batch_size" : [5],
     "epochs" : [10],

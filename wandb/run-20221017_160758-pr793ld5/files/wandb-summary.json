@@ -1,1 +1,0 @@
-{"train_loss": 3.250453472137451, "_timestamp": 1666015874.377281, "_runtime": 196.15619492530823, "_step": 50, "eval_loss": 11.769298553466797, "total_training_acc": {"Negative": 0.0, "Neutral": 0.28, "Positive": 0.7047619047619048}, "total_eval_acc": {"Negative": 0.0, "Neutral": 0.4, "Positive": 0.6}, "_wandb": {"runtime": 196}}

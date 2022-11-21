@@ -1,6 +1,6 @@
 import warnings
 import numpy as np
-from sklearn.metrics import accuracy_score, confusion_matrix 
+from sklearn.metrics import accuracy_score, confusion_matrix, f1_score
 
 def multi_class_accuracy(preds: np.ndarray, 
                         labels: np.ndarray) -> dict:
@@ -40,4 +40,7 @@ def multi_class_acc_via_cm(preds : np.ndarray,
     mc_acc['Negative'] = accuracies[0]
     return mc_acc
 
-#%%
+def multi_class_f1_score(preds : np.ndarray,
+             labels : np.ndarray) -> float:
+    F1 = f1_score(y_pred = preds, y_true = labels, average = "weighted")
+    return F1
