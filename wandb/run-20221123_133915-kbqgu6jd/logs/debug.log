@@ -1,0 +1,32 @@
+2022-11-23 13:39:15,221 INFO    Thread-3  :24988 [wandb_setup.py:_flush():68] Configure stats pid to 24988
+2022-11-23 13:39:15,221 INFO    Thread-3  :24988 [wandb_setup.py:_flush():68] Loading settings from /Users/zorilolah/.config/wandb/settings
+2022-11-23 13:39:15,221 INFO    Thread-3  :24988 [wandb_setup.py:_flush():68] Loading settings from /Users/zorilolah/Documents/CryptoNewsFeed/wandb/settings
+2022-11-23 13:39:15,221 INFO    Thread-3  :24988 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True', 'project': 'swipe_testing', 'entity': 'zoril', 'root_dir': '/Users/zorilolah/Documents/CryptoNewsFeed', 'sweep_id': 'fzj7j4zo', 'run_id': 'kbqgu6jd', 'sweep_param_path': '/Users/zorilolah/Documents/CryptoNewsFeed/wandb/sweep-fzj7j4zo/config-kbqgu6jd.yaml'}
+2022-11-23 13:39:15,221 INFO    Thread-3  :24988 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'src/run_wandb_swipe.py', 'program': '/Users/zorilolah/Documents/CryptoNewsFeed/src/run_wandb_swipe.py'}
+2022-11-23 13:39:15,222 INFO    Thread-3  :24988 [wandb_init.py:_log_setup():476] Logging user logs to /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221123_133915-kbqgu6jd/logs/debug.log
+2022-11-23 13:39:15,222 INFO    Thread-3  :24988 [wandb_init.py:_log_setup():477] Logging internal logs to /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221123_133915-kbqgu6jd/logs/debug-internal.log
+2022-11-23 13:39:15,222 INFO    Thread-3  :24988 [wandb_init.py:init():516] calling init triggers
+2022-11-23 13:39:15,222 INFO    Thread-3  :24988 [wandb_init.py:init():519] wandb.init called with sweep_config: {'batch_size': 4, 'epochs': 5, 'lr': 0.017292183684861698, 'scheduler_form': 'linear', 'wd': 0.04153206022155614}
+config: {}
+2022-11-23 13:39:15,223 INFO    Thread-3  :24988 [wandb_init.py:init():569] starting backend
+2022-11-23 13:39:15,223 INFO    Thread-3  :24988 [wandb_init.py:init():573] setting up manager
+2022-11-23 13:39:15,229 INFO    Thread-3  :24988 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2022-11-23 13:39:15,237 INFO    Thread-3  :24988 [wandb_init.py:init():580] backend started and connected
+2022-11-23 13:39:15,244 INFO    Thread-3  :24988 [wandb_run.py:_config_callback():1160] config_cb None None {'batch_size': 4, 'epochs': 5, 'lr': 0.017292183684861698, 'scheduler_form': 'linear', 'wd': 0.04153206022155614}
+2022-11-23 13:39:15,247 INFO    Thread-3  :24988 [wandb_init.py:init():658] updated telemetry
+2022-11-23 13:39:15,266 INFO    Thread-3  :24988 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2022-11-23 13:39:15,655 INFO    Thread-3  :24988 [wandb_run.py:_on_init():2000] communicating current version
+2022-11-23 13:39:15,699 INFO    Thread-3  :24988 [wandb_run.py:_on_init():2004] got version response 
+2022-11-23 13:39:15,699 INFO    Thread-3  :24988 [wandb_init.py:init():728] starting run threads in backend
+2022-11-23 13:39:19,574 INFO    Thread-3  :24988 [wandb_run.py:_console_start():1980] atexit reg
+2022-11-23 13:39:19,574 INFO    Thread-3  :24988 [wandb_run.py:_redirect():1838] redirect: SettingsConsole.WRAP_RAW
+2022-11-23 13:39:19,574 INFO    Thread-3  :24988 [wandb_run.py:_redirect():1903] Wrapping output streams.
+2022-11-23 13:39:19,574 INFO    Thread-3  :24988 [wandb_run.py:_redirect():1925] Redirects installed.
+2022-11-23 13:39:19,575 INFO    Thread-3  :24988 [wandb_init.py:init():765] run started, returning control to user process
+2022-11-23 13:50:12,358 INFO    Thread-3  :24988 [wandb_run.py:_finish():1746] finishing run zoril/swipe_testing/kbqgu6jd
+2022-11-23 13:50:12,359 INFO    Thread-3  :24988 [wandb_run.py:_atexit_cleanup():1949] got exitcode: 0
+2022-11-23 13:50:12,360 INFO    Thread-3  :24988 [wandb_run.py:_restore():1932] restore
+2022-11-23 13:50:12,360 INFO    Thread-3  :24988 [wandb_run.py:_restore():1938] restore done
+2022-11-23 13:50:17,118 INFO    Thread-3  :24988 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2022-11-23 13:50:17,120 INFO    Thread-3  :24988 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2022-11-23 13:50:17,129 INFO    Thread-3  :24988 [wandb_run.py:_footer_sync_info():3333] logging synced files

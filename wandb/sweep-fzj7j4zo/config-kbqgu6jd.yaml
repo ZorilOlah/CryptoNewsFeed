@@ -1,0 +1,12 @@
+wandb_version: 1
+
+batch_size:
+  value: 4
+epochs:
+  value: 5
+lr:
+  value: 0.017292183684861698
+scheduler_form:
+  value: linear
+wd:
+  value: 0.04153206022155614

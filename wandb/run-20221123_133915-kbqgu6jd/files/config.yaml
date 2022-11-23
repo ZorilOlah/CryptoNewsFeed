@@ -1,0 +1,53 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.13.5
+    framework: huggingface
+    huggingface_version: 4.24.0
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.9.15
+    start_time: 1669207155.237869
+    t:
+      1:
+      - 1
+      - 5
+      - 11
+      - 49
+      - 51
+      - 53
+      - 55
+      2:
+      - 1
+      - 5
+      - 11
+      - 49
+      - 51
+      - 53
+      - 55
+      3:
+      - 2
+      - 23
+      - 37
+      4: 3.9.15
+      5: 0.13.5
+      6: 4.24.0
+      8:
+      - 5
+batch_size:
+  desc: null
+  value: 4
+epochs:
+  desc: null
+  value: 5
+lr:
+  desc: null
+  value: 0.017292183684861698
+scheduler_form:
+  desc: null
+  value: linear
+wd:
+  desc: null
+  value: 0.04153206022155614
