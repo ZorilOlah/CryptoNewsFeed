@@ -1,0 +1,11 @@
+wandb
+tqdm
+torchvision
+pytorch
+torchaudio
+pandas
+pathlib
+typing
+datasets
+scikit-learn
+transformers
