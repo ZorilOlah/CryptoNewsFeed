@@ -1,0 +1,55 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.13.5
+    framework: huggingface
+    huggingface_version: 4.24.0
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.9.15
+    start_time: 1669986496.470089
+    t:
+      1:
+      - 1
+      - 5
+      - 11
+      - 49
+      - 51
+      - 53
+      - 55
+      2:
+      - 1
+      - 5
+      - 11
+      - 49
+      - 51
+      - 53
+      - 55
+      3:
+      - 1
+      - 16
+      - 23
+      4: 3.9.15
+      5: 0.13.5
+      6: 4.24.0
+      8:
+      - 5
+batch_size:
+  desc: null
+  value: 5
+lr_scheduler:
+  desc: null
+  value: <torch.optim.lr_scheduler.LambdaLR object at 0x7f8aa7c87c40>
+num_epochs:
+  desc: null
+  value: 10
+num_trainig_steps:
+  desc: null
+  value: 70
+optimizer:
+  desc: null
+  value: "AdamW (\nParameter Group 0\n    amsgrad: False\n    betas: (0.9, 0.999)\n\
+    \    capturable: False\n    eps: 1e-08\n    foreach: None\n    initial_lr: 1e-05\n\
+    \    lr: 1e-05\n    maximize: False\n    weight_decay: 0.01\n)"

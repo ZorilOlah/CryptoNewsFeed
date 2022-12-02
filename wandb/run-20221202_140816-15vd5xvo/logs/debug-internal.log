@@ -1,0 +1,907 @@
+2022-12-02 14:08:16,481 INFO    StreamThr :24462 [internal.py:wandb_internal():88] W&B internal server running at pid: 24462, started at: 2022-12-02 14:08:16.479486
+2022-12-02 14:08:16,484 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: status
+2022-12-02 14:08:16,487 DEBUG   SenderThread:24462 [sender.py:send_request():317] send_request: status
+2022-12-02 14:08:16,488 DEBUG   SenderThread:24462 [sender.py:send():303] send: header
+2022-12-02 14:08:16,490 INFO    WriterThread:24462 [datastore.py:open_for_write():75] open: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/run-15vd5xvo.wandb
+2022-12-02 14:08:16,495 DEBUG   SenderThread:24462 [sender.py:send():303] send: run
+2022-12-02 14:08:17,186 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: check_version
+2022-12-02 14:08:17,189 INFO    SenderThread:24462 [dir_watcher.py:__init__():216] watching files in: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files
+2022-12-02 14:08:17,190 INFO    SenderThread:24462 [sender.py:_start_run_threads():928] run started: 15vd5xvo with start time 1669986496.470089
+2022-12-02 14:08:17,190 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:08:17,190 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:08:17,190 DEBUG   SenderThread:24462 [sender.py:send_request():317] send_request: check_version
+2022-12-02 14:08:17,469 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: run_start
+2022-12-02 14:08:17,477 DEBUG   HandlerThread:24462 [system_info.py:__init__():31] System info init
+2022-12-02 14:08:17,478 DEBUG   HandlerThread:24462 [system_info.py:__init__():46] System info init done
+2022-12-02 14:08:17,478 INFO    HandlerThread:24462 [system_monitor.py:start():150] Starting system monitor
+2022-12-02 14:08:17,478 INFO    SystemMonitor:24462 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2022-12-02 14:08:17,479 INFO    HandlerThread:24462 [system_monitor.py:probe():168] Collecting system info
+2022-12-02 14:08:17,479 DEBUG   HandlerThread:24462 [system_info.py:probe():195] Probing system
+2022-12-02 14:08:17,479 INFO    SystemMonitor:24462 [interfaces.py:start():168] Started cpu
+2022-12-02 14:08:17,480 INFO    SystemMonitor:24462 [interfaces.py:start():168] Started disk
+2022-12-02 14:08:17,483 INFO    SystemMonitor:24462 [interfaces.py:start():168] Started memory
+2022-12-02 14:08:17,484 INFO    SystemMonitor:24462 [interfaces.py:start():168] Started network
+2022-12-02 14:08:17,488 DEBUG   HandlerThread:24462 [system_info.py:_probe_git():180] Probing git
+2022-12-02 14:08:17,507 DEBUG   HandlerThread:24462 [system_info.py:_probe_git():188] Probing git done
+2022-12-02 14:08:17,508 DEBUG   HandlerThread:24462 [system_info.py:probe():241] Probing system done
+2022-12-02 14:08:17,508 DEBUG   HandlerThread:24462 [system_monitor.py:probe():177] {'os': 'macOS-10.16-x86_64-i386-64bit', 'python': '3.9.15', 'heartbeatAt': '2022-12-02T13:08:17.479821', 'startedAt': '2022-12-02T13:08:16.445671', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/Users/zorilolah/Documents/CryptoNewsFeed/src/run.py', 'codePath': 'src/run.py', 'git': {'remote': 'https://github.com/ZorilOlah/CryptoNewsFeed.git', 'commit': '227265f2ca0635c7fba093bb7c0480bd2f90b96c'}, 'email': 'Zorilolah@gmail.com', 'root': '/Users/zorilolah/Documents/CryptoNewsFeed', 'host': 'Zorils-MacBook-Pro.local', 'username': 'zorilolah', 'executable': '/Users/zorilolah/anaconda3/envs/cnf/bin/python', 'cpu_count': 4, 'cpu_count_logical': 4, 'cpu_freq': {'current': 2000, 'min': 2000, 'max': 2000}, 'cpu_freq_per_core': [{'current': 2000, 'min': 2000, 'max': 2000}], 'disk': {'total': 465.62699127197266, 'used': 404.73292541503906}, 'memory': {'total': 16.0}}
+2022-12-02 14:08:17,508 INFO    HandlerThread:24462 [system_monitor.py:probe():178] Finished collecting system info
+2022-12-02 14:08:17,508 INFO    HandlerThread:24462 [system_monitor.py:probe():181] Publishing system info
+2022-12-02 14:08:17,508 DEBUG   HandlerThread:24462 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2022-12-02 14:08:17,509 DEBUG   HandlerThread:24462 [system_info.py:_save_pip():67] Saving pip packages done
+2022-12-02 14:08:17,509 DEBUG   HandlerThread:24462 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2022-12-02 14:08:18,196 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/conda-environment.yaml
+2022-12-02 14:08:18,197 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:08:18,197 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/requirements.txt
+2022-12-02 14:08:22,564 DEBUG   HandlerThread:24462 [system_info.py:_save_conda():86] Saving conda packages done
+2022-12-02 14:08:22,565 INFO    HandlerThread:24462 [system_monitor.py:probe():183] Finished publishing system info
+2022-12-02 14:08:22,570 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-02 14:08:22,571 DEBUG   SenderThread:24462 [sender.py:send_request():317] send_request: stop_status
+2022-12-02 14:08:22,878 DEBUG   SenderThread:24462 [sender.py:send():303] send: telemetry
+2022-12-02 14:08:22,878 DEBUG   SenderThread:24462 [sender.py:send():303] send: telemetry
+2022-12-02 14:08:22,879 DEBUG   SenderThread:24462 [sender.py:send():303] send: files
+2022-12-02 14:08:22,880 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2022-12-02 14:08:23,220 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/conda-environment.yaml
+2022-12-02 14:08:23,220 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-metadata.json
+2022-12-02 14:08:23,801 INFO    Thread-16 :24462 [upload_job.py:push():143] Uploaded file /var/folders/zc/645ydsnn34qct2xvjr12_92w0000gn/T/tmpd6cm9z9twandb/3t4xb1ph-wandb-metadata.json
+2022-12-02 14:08:26,201 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:08:26,201 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:08:26,201 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:08:26,203 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:08:26,229 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:08:31,221 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:08:31,222 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:08:31,222 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:08:31,223 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:08:31,238 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:08:35,219 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:08:35,220 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:08:35,220 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:08:35,222 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:08:35,254 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:08:37,886 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-02 14:08:37,886 DEBUG   SenderThread:24462 [sender.py:send_request():317] send_request: stop_status
+2022-12-02 14:08:38,951 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:08:38,952 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:08:38,952 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:08:38,953 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:08:39,267 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:08:42,823 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:08:42,823 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:08:42,823 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:08:42,824 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:08:43,279 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:08:47,069 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:08:47,069 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:08:47,471 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:08:47,472 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:08:48,301 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:08:48,302 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/config.yaml
+2022-12-02 14:08:48,759 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:08:48,760 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:08:48,760 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:08:48,761 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:08:49,303 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:08:49,612 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:08:49,612 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:08:49,612 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:08:49,614 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:08:49,823 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:08:49,824 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:08:49,824 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:08:49,824 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:08:50,010 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:08:50,010 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:08:50,011 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:08:50,011 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:08:50,192 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:08:50,192 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:08:50,193 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:08:50,193 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:08:50,304 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:08:50,345 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:08:50,345 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:08:50,345 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:08:50,346 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:08:50,511 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:08:50,511 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:08:50,512 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:08:50,512 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:08:50,683 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:08:50,683 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:08:50,684 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:08:50,684 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:08:50,912 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:08:50,913 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:08:50,913 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:08:50,914 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:08:51,306 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:08:53,200 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-02 14:08:53,200 DEBUG   SenderThread:24462 [sender.py:send_request():317] send_request: stop_status
+2022-12-02 14:08:54,232 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:08:54,232 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:08:54,233 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:08:54,233 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:08:54,318 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:08:57,762 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:08:57,762 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:08:57,762 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:08:57,763 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:08:58,332 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:09:01,121 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:09:01,122 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:09:01,122 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:09:01,123 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:09:01,334 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:09:05,579 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:09:05,580 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:09:05,580 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:09:05,582 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:09:06,352 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:09:08,210 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:09:08,210 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:09:08,211 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:09:08,212 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:09:08,358 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:09:08,523 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-02 14:09:08,523 DEBUG   SenderThread:24462 [sender.py:send_request():317] send_request: stop_status
+2022-12-02 14:09:12,458 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:09:12,459 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:09:12,459 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:09:12,461 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:09:13,373 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:09:13,647 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:09:13,647 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:09:13,648 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:09:13,649 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:09:14,227 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:09:14,228 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:09:14,228 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:09:14,229 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:09:14,376 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:09:14,418 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:09:14,419 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:09:14,419 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:09:14,419 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:09:14,643 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:09:14,643 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:09:14,643 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:09:14,645 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:09:14,812 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:09:14,812 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:09:14,812 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:09:14,813 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:09:14,983 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:09:14,984 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:09:14,984 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:09:14,985 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:09:15,161 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:09:15,162 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:09:15,162 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:09:15,163 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:09:15,335 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:09:15,335 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:09:15,335 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:09:15,336 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:09:15,382 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:09:15,511 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:09:15,511 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:09:15,512 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:09:15,512 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:09:16,386 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:09:17,485 DEBUG   SystemMonitor:24462 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2022-12-02 14:09:17,492 DEBUG   SenderThread:24462 [sender.py:send():303] send: stats
+2022-12-02 14:09:19,154 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:09:19,155 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:09:19,155 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:09:19,156 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:09:19,397 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:09:23,550 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:09:23,551 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:09:23,551 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:09:23,552 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:09:23,915 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-02 14:09:23,915 DEBUG   SenderThread:24462 [sender.py:send_request():317] send_request: stop_status
+2022-12-02 14:09:24,412 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:09:27,003 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:09:27,003 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:09:27,004 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:09:27,005 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:09:27,420 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:09:31,121 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:09:31,122 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:09:31,122 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:09:31,123 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:09:31,428 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:09:34,127 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:09:34,127 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:09:34,127 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:09:34,128 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:09:34,437 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:09:37,711 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:09:37,712 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:09:37,712 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:09:37,713 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:09:38,454 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:09:38,924 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:09:38,925 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:09:38,925 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:09:38,926 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:09:39,230 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-02 14:09:39,230 DEBUG   SenderThread:24462 [sender.py:send_request():317] send_request: stop_status
+2022-12-02 14:09:39,455 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:09:39,490 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:09:39,537 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:09:39,537 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:09:39,538 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:09:39,673 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:09:39,673 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:09:39,674 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:09:39,674 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:09:39,882 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:09:39,883 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:09:39,883 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:09:39,883 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:09:40,043 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:09:40,043 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:09:40,043 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:09:40,044 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:09:40,205 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:09:40,205 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:09:40,206 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:09:40,206 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:09:40,364 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:09:40,364 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:09:40,364 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:09:40,365 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:09:40,460 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:09:40,532 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:09:40,533 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:09:40,533 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:09:40,534 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:09:40,719 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:09:40,720 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:09:40,720 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:09:40,721 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:09:41,463 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:09:44,476 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:09:44,477 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:09:44,477 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:09:44,478 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:09:45,478 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:09:47,493 DEBUG   SenderThread:24462 [sender.py:send():303] send: stats
+2022-12-02 14:09:48,088 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:09:48,089 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:09:48,089 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:09:48,090 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:09:48,492 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:09:51,275 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:09:51,275 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:09:51,275 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:09:51,276 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:09:51,501 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:09:54,541 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-02 14:09:54,542 DEBUG   SenderThread:24462 [sender.py:send_request():317] send_request: stop_status
+2022-12-02 14:09:55,262 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:09:55,263 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:09:55,263 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:09:55,264 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:09:55,521 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:09:58,331 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:09:58,331 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:09:58,332 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:09:58,334 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:09:58,523 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:10:01,771 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:10:01,772 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:10:01,772 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:10:01,773 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:10:02,535 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:10:02,891 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:10:02,892 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:10:02,892 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:10:02,893 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:10:03,374 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:10:03,375 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:10:03,375 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:10:03,376 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:10:03,535 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:10:03,574 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:10:03,575 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:10:03,575 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:10:03,576 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:10:03,737 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:10:03,738 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:10:03,738 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:10:03,738 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:10:03,946 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:10:03,947 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:10:03,947 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:10:03,948 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:10:04,118 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:10:04,118 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:10:04,119 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:10:04,119 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:10:04,285 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:10:04,285 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:10:04,286 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:10:04,286 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:10:04,506 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:10:04,507 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:10:04,507 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:10:04,508 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:10:04,537 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:10:04,700 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:10:04,701 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:10:04,701 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:10:04,702 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:10:05,537 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:10:08,105 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:10:08,106 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:10:08,106 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:10:08,107 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:10:08,541 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:10:09,861 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-02 14:10:09,861 DEBUG   SenderThread:24462 [sender.py:send_request():317] send_request: stop_status
+2022-12-02 14:10:10,688 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:10:10,688 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:10:10,689 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:10:10,691 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:10:11,553 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:10:15,073 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:10:15,073 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:10:15,074 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:10:15,075 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:10:15,562 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:10:17,494 DEBUG   SenderThread:24462 [sender.py:send():303] send: stats
+2022-12-02 14:10:18,688 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:10:18,689 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:10:18,689 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:10:18,690 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:10:19,581 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:10:21,750 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:10:21,750 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:10:21,750 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:10:21,752 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:10:22,591 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:10:25,183 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-02 14:10:25,183 DEBUG   SenderThread:24462 [sender.py:send_request():317] send_request: stop_status
+2022-12-02 14:10:27,183 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:10:27,186 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:10:27,186 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:10:27,187 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:10:27,605 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:10:28,562 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:10:28,563 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:10:28,564 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:10:28,565 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:10:28,608 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:10:29,505 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:10:29,506 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:10:29,506 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:10:29,507 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:10:29,611 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:10:29,854 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:10:29,854 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:10:29,855 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:10:29,856 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:10:30,115 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:10:30,116 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:10:30,116 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:10:30,117 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:10:30,380 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:10:30,381 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:10:30,381 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:10:30,382 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:10:30,612 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:10:30,621 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:10:30,622 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:10:30,622 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:10:30,623 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:10:30,862 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:10:30,863 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:10:30,863 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:10:30,864 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:10:31,101 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:10:31,102 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:10:31,102 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:10:31,103 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:10:31,342 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:10:31,343 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:10:31,343 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:10:31,344 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:10:31,614 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:10:39,661 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:10:39,662 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:10:39,662 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:10:39,665 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:10:40,506 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-02 14:10:40,506 DEBUG   SenderThread:24462 [sender.py:send_request():317] send_request: stop_status
+2022-12-02 14:10:40,635 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:10:42,962 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:10:45,594 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:10:46,075 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:10:46,076 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:10:46,077 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:10:46,078 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:10:46,078 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:10:46,078 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:10:46,652 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:10:47,498 DEBUG   SenderThread:24462 [sender.py:send():303] send: stats
+2022-12-02 14:10:51,474 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:10:51,475 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:10:51,475 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:10:51,477 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:10:51,667 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:10:59,781 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:10:59,782 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:10:59,782 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:10:59,783 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:11:00,511 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-02 14:11:00,511 DEBUG   SenderThread:24462 [sender.py:send_request():317] send_request: stop_status
+2022-12-02 14:11:00,690 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:11:08,658 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:11:08,660 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:11:08,660 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:11:08,662 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:11:08,707 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:11:10,834 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:11:10,834 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:11:10,835 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:11:10,836 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:11:11,713 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:11:11,823 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:11:11,823 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:11:11,824 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:11:11,825 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:11:12,087 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:11:12,087 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:11:12,088 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:11:12,089 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:11:12,336 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:11:12,337 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:11:12,337 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:11:12,338 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:11:12,604 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:11:12,605 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:11:12,605 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:11:12,606 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:11:12,717 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:11:12,866 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:11:12,867 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:11:12,868 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:11:12,869 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:11:13,128 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:11:13,129 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:11:13,129 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:11:13,130 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:11:13,372 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:11:13,372 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:11:13,373 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:11:13,374 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:11:13,693 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:11:13,694 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:11:13,694 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:11:13,695 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:11:13,719 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:11:15,857 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-02 14:11:15,858 DEBUG   SenderThread:24462 [sender.py:send_request():317] send_request: stop_status
+2022-12-02 14:11:17,500 DEBUG   SenderThread:24462 [sender.py:send():303] send: stats
+2022-12-02 14:11:19,559 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:11:19,560 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:11:19,560 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:11:19,562 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:11:19,732 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:11:22,875 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:11:22,876 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:11:22,876 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:11:22,877 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:11:23,749 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:11:27,726 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:11:27,726 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:11:27,727 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:11:27,728 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:11:27,755 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:11:31,199 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-02 14:11:31,199 DEBUG   SenderThread:24462 [sender.py:send_request():317] send_request: stop_status
+2022-12-02 14:11:33,807 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:11:33,807 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:11:33,808 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:11:33,809 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:11:34,785 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:11:36,127 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:11:36,127 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:11:36,128 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:11:36,128 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:11:36,795 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:11:39,445 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:11:39,446 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:11:39,446 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:11:39,447 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:11:39,802 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:11:40,535 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:11:40,536 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:11:40,536 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:11:40,537 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:11:40,806 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:11:41,114 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:11:41,114 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:11:41,115 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:11:41,115 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:11:41,288 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:11:41,289 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:11:41,289 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:11:41,290 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:11:41,451 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:11:41,451 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:11:41,452 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:11:41,452 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:11:41,641 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:11:41,641 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:11:41,641 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:11:41,642 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:11:41,797 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:11:41,798 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:11:41,798 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:11:41,799 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:11:41,810 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:11:42,010 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:11:42,010 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:11:42,010 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:11:42,011 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:11:42,160 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:11:42,160 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:11:42,160 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:11:42,161 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:11:42,333 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:11:42,334 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:11:42,334 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:11:42,334 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:11:42,813 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:11:45,249 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:11:45,250 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:11:45,250 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:11:45,253 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:11:45,815 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:11:46,560 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-02 14:11:46,560 DEBUG   SenderThread:24462 [sender.py:send_request():317] send_request: stop_status
+2022-12-02 14:11:47,501 DEBUG   SenderThread:24462 [sender.py:send():303] send: stats
+2022-12-02 14:11:48,461 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:11:48,462 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:11:48,462 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:11:48,463 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:11:48,822 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:11:51,885 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:11:51,885 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:11:51,886 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:11:51,886 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:11:52,835 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:11:54,822 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:11:54,823 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:11:54,823 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:11:54,824 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:11:54,840 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:11:58,084 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:11:58,084 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:11:58,084 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:11:58,086 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:11:58,849 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:12:01,438 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:12:01,438 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:12:01,438 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:12:01,439 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:12:01,857 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:12:01,927 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-02 14:12:01,927 DEBUG   SenderThread:24462 [sender.py:send_request():317] send_request: stop_status
+2022-12-02 14:12:03,322 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:12:03,323 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:12:03,323 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:12:03,324 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:12:03,861 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:12:04,716 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:12:04,716 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:12:04,717 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:12:04,717 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:12:04,862 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:12:05,196 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:12:05,197 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:12:05,197 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:12:05,198 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:12:05,866 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:12:05,930 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:12:05,931 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:12:05,931 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:12:05,932 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:12:06,697 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:12:06,710 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:12:06,711 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:12:06,711 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:12:06,870 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:12:06,955 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:12:06,955 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:12:06,955 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:12:06,956 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:12:07,192 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:12:07,192 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:12:07,192 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:12:07,193 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:12:07,670 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:12:07,670 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:12:07,670 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:12:07,671 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:12:07,873 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:12:08,683 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:12:08,693 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:12:08,693 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:12:08,694 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:12:08,878 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:12:15,583 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:12:15,584 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:12:15,584 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:12:15,585 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:12:15,899 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:12:17,324 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-02 14:12:17,324 DEBUG   SenderThread:24462 [sender.py:send_request():317] send_request: stop_status
+2022-12-02 14:12:17,649 DEBUG   SenderThread:24462 [sender.py:send():303] send: stats
+2022-12-02 14:12:19,379 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:12:19,379 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:12:19,380 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:12:19,381 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:12:19,907 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:12:23,144 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:12:23,144 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:12:23,145 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:12:23,146 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:12:23,919 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:12:25,744 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:12:25,745 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:12:25,745 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:12:25,746 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:12:25,923 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:12:29,465 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:12:29,465 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:12:29,466 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:12:29,467 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:12:29,933 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:12:32,202 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:12:32,203 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:12:32,203 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:12:32,204 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:12:32,655 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-02 14:12:32,655 DEBUG   SenderThread:24462 [sender.py:send_request():317] send_request: stop_status
+2022-12-02 14:12:32,940 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:12:33,547 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:12:33,548 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:12:33,548 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:12:33,549 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:12:33,942 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:12:34,152 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:12:34,153 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:12:34,153 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:12:34,154 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:12:34,311 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:12:34,312 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:12:34,312 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:12:34,313 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:12:34,458 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:12:34,459 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:12:34,459 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:12:34,459 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:12:34,675 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:12:34,681 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:12:34,681 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:12:34,701 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:12:34,827 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:12:34,828 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:12:34,828 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:12:34,829 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:12:34,946 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:12:34,976 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:12:34,976 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:12:34,976 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:12:34,977 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:12:35,140 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:12:35,140 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:12:35,140 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:12:35,141 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:12:35,291 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:12:35,291 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:12:35,291 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:12:35,292 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:12:35,949 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:12:38,145 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:12:38,146 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:12:38,146 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:12:38,147 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:12:38,958 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:12:41,392 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:12:41,393 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:12:41,393 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:12:41,395 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:12:41,965 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:12:43,806 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:12:43,806 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:12:43,806 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:12:43,807 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:12:43,970 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:12:46,922 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:12:46,922 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:12:46,923 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:12:46,924 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:12:46,980 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:12:47,510 DEBUG   SenderThread:24462 [sender.py:send():303] send: stats
+2022-12-02 14:12:48,006 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-02 14:12:48,006 DEBUG   SenderThread:24462 [sender.py:send_request():317] send_request: stop_status
+2022-12-02 14:12:49,923 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:12:49,923 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:12:49,924 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:12:49,925 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:12:49,989 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:12:53,415 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:12:53,415 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:12:53,415 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:12:53,417 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:12:54,005 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:12:54,754 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:12:54,755 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:12:54,755 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:12:54,756 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:12:55,010 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:12:55,352 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:12:55,353 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:12:55,353 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:12:55,354 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:12:55,531 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:12:55,531 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:12:55,531 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:12:55,532 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:12:55,693 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:12:55,694 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:12:55,694 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:12:55,694 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:12:55,904 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:12:55,905 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:12:55,905 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:12:55,906 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:12:56,016 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:12:56,090 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:12:56,091 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:12:56,091 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:12:56,092 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:12:56,263 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:12:56,263 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:12:56,264 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:12:56,264 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:12:56,432 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:12:56,433 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:12:56,433 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:12:56,434 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:12:56,596 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-02 14:12:56,596 DEBUG   SenderThread:24462 [sender.py:send():303] send: history
+2022-12-02 14:12:56,597 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:12:56,597 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:12:56,691 DEBUG   SenderThread:24462 [sender.py:send():303] send: exit
+2022-12-02 14:12:56,691 INFO    SenderThread:24462 [sender.py:send_exit():442] handling exit code: 0
+2022-12-02 14:12:56,692 INFO    SenderThread:24462 [sender.py:send_exit():444] handling runtime: 279
+2022-12-02 14:12:56,692 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:12:56,692 INFO    SenderThread:24462 [sender.py:send_exit():450] send defer
+2022-12-02 14:12:56,693 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: defer
+2022-12-02 14:12:56,693 INFO    HandlerThread:24462 [handler.py:handle_request_defer():162] handle defer: 0
+2022-12-02 14:12:56,693 DEBUG   SenderThread:24462 [sender.py:send_request():317] send_request: defer
+2022-12-02 14:12:56,693 INFO    SenderThread:24462 [sender.py:send_request_defer():459] handle sender defer: 0
+2022-12-02 14:12:56,693 INFO    SenderThread:24462 [sender.py:transition_state():463] send defer: 1
+2022-12-02 14:12:56,693 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: defer
+2022-12-02 14:12:56,693 INFO    HandlerThread:24462 [handler.py:handle_request_defer():162] handle defer: 1
+2022-12-02 14:12:56,693 INFO    HandlerThread:24462 [system_monitor.py:finish():160] Stopping system monitor
+2022-12-02 14:12:56,708 DEBUG   SystemMonitor:24462 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2022-12-02 14:12:56,709 DEBUG   SystemMonitor:24462 [system_monitor.py:_start():141] Publishing last batch of metrics
+2022-12-02 14:12:56,709 INFO    HandlerThread:24462 [interfaces.py:finish():173] Joined cpu
+2022-12-02 14:12:56,710 INFO    HandlerThread:24462 [interfaces.py:finish():173] Joined disk
+2022-12-02 14:12:56,710 INFO    HandlerThread:24462 [interfaces.py:finish():173] Joined memory
+2022-12-02 14:12:56,710 INFO    HandlerThread:24462 [interfaces.py:finish():173] Joined network
+2022-12-02 14:12:56,710 DEBUG   SenderThread:24462 [sender.py:send_request():317] send_request: defer
+2022-12-02 14:12:56,710 INFO    SenderThread:24462 [sender.py:send_request_defer():459] handle sender defer: 1
+2022-12-02 14:12:56,710 INFO    SenderThread:24462 [sender.py:transition_state():463] send defer: 2
+2022-12-02 14:12:56,710 DEBUG   SenderThread:24462 [sender.py:send():303] send: stats
+2022-12-02 14:12:56,711 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: defer
+2022-12-02 14:12:56,711 INFO    HandlerThread:24462 [handler.py:handle_request_defer():162] handle defer: 2
+2022-12-02 14:12:56,711 DEBUG   SenderThread:24462 [sender.py:send_request():317] send_request: defer
+2022-12-02 14:12:56,711 INFO    SenderThread:24462 [sender.py:send_request_defer():459] handle sender defer: 2
+2022-12-02 14:12:56,712 INFO    SenderThread:24462 [sender.py:transition_state():463] send defer: 3
+2022-12-02 14:12:56,712 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: defer
+2022-12-02 14:12:56,712 INFO    HandlerThread:24462 [handler.py:handle_request_defer():162] handle defer: 3
+2022-12-02 14:12:56,713 DEBUG   SenderThread:24462 [sender.py:send_request():317] send_request: defer
+2022-12-02 14:12:56,713 INFO    SenderThread:24462 [sender.py:send_request_defer():459] handle sender defer: 3
+2022-12-02 14:12:56,713 INFO    SenderThread:24462 [sender.py:transition_state():463] send defer: 4
+2022-12-02 14:12:56,713 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: defer
+2022-12-02 14:12:56,713 INFO    HandlerThread:24462 [handler.py:handle_request_defer():162] handle defer: 4
+2022-12-02 14:12:56,714 DEBUG   SenderThread:24462 [sender.py:send():303] send: summary
+2022-12-02 14:12:56,714 INFO    SenderThread:24462 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-02 14:12:56,715 DEBUG   SenderThread:24462 [sender.py:send_request():317] send_request: defer
+2022-12-02 14:12:56,715 INFO    SenderThread:24462 [sender.py:send_request_defer():459] handle sender defer: 4
+2022-12-02 14:12:56,715 INFO    SenderThread:24462 [sender.py:transition_state():463] send defer: 5
+2022-12-02 14:12:56,715 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: defer
+2022-12-02 14:12:56,715 INFO    HandlerThread:24462 [handler.py:handle_request_defer():162] handle defer: 5
+2022-12-02 14:12:56,715 DEBUG   SenderThread:24462 [sender.py:send_request():317] send_request: defer
+2022-12-02 14:12:56,715 INFO    SenderThread:24462 [sender.py:send_request_defer():459] handle sender defer: 5
+2022-12-02 14:12:56,715 INFO    SenderThread:24462 [sender.py:transition_state():463] send defer: 6
+2022-12-02 14:12:56,715 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: defer
+2022-12-02 14:12:56,716 INFO    HandlerThread:24462 [handler.py:handle_request_defer():162] handle defer: 6
+2022-12-02 14:12:56,716 DEBUG   SenderThread:24462 [sender.py:send_request():317] send_request: defer
+2022-12-02 14:12:56,716 INFO    SenderThread:24462 [sender.py:send_request_defer():459] handle sender defer: 6
+2022-12-02 14:12:57,019 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:12:57,019 INFO    Thread-13 :24462 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/output.log
+2022-12-02 14:12:57,694 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: poll_exit
+2022-12-02 14:12:58,680 INFO    SenderThread:24462 [sender.py:transition_state():463] send defer: 7
+2022-12-02 14:12:58,680 DEBUG   SenderThread:24462 [sender.py:send_request():317] send_request: poll_exit
+2022-12-02 14:12:58,681 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: defer
+2022-12-02 14:12:58,681 INFO    HandlerThread:24462 [handler.py:handle_request_defer():162] handle defer: 7
+2022-12-02 14:12:58,682 DEBUG   SenderThread:24462 [sender.py:send_request():317] send_request: defer
+2022-12-02 14:12:58,682 INFO    SenderThread:24462 [sender.py:send_request_defer():459] handle sender defer: 7
+2022-12-02 14:12:58,682 INFO    SenderThread:24462 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-12-02 14:12:58,699 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: poll_exit
+2022-12-02 14:12:59,026 INFO    SenderThread:24462 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/output.log
+2022-12-02 14:12:59,026 INFO    SenderThread:24462 [dir_watcher.py:finish():392] scan: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files
+2022-12-02 14:12:59,026 INFO    SenderThread:24462 [dir_watcher.py:finish():406] scan save: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/requirements.txt requirements.txt
+2022-12-02 14:12:59,027 INFO    SenderThread:24462 [dir_watcher.py:finish():406] scan save: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/output.log output.log
+2022-12-02 14:12:59,029 INFO    SenderThread:24462 [dir_watcher.py:finish():406] scan save: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/config.yaml config.yaml
+2022-12-02 14:12:59,032 INFO    SenderThread:24462 [dir_watcher.py:finish():406] scan save: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json wandb-summary.json
+2022-12-02 14:12:59,033 INFO    SenderThread:24462 [dir_watcher.py:finish():406] scan save: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/conda-environment.yaml conda-environment.yaml
+2022-12-02 14:12:59,038 INFO    SenderThread:24462 [dir_watcher.py:finish():406] scan save: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-metadata.json wandb-metadata.json
+2022-12-02 14:12:59,039 INFO    SenderThread:24462 [sender.py:transition_state():463] send defer: 8
+2022-12-02 14:12:59,042 DEBUG   SenderThread:24462 [sender.py:send_request():317] send_request: poll_exit
+2022-12-02 14:12:59,044 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: defer
+2022-12-02 14:12:59,044 INFO    HandlerThread:24462 [handler.py:handle_request_defer():162] handle defer: 8
+2022-12-02 14:12:59,045 DEBUG   SenderThread:24462 [sender.py:send_request():317] send_request: defer
+2022-12-02 14:12:59,045 INFO    SenderThread:24462 [sender.py:send_request_defer():459] handle sender defer: 8
+2022-12-02 14:12:59,045 INFO    SenderThread:24462 [file_pusher.py:finish():168] shutting down file pusher
+2022-12-02 14:12:59,700 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: poll_exit
+2022-12-02 14:12:59,701 DEBUG   SenderThread:24462 [sender.py:send_request():317] send_request: poll_exit
+2022-12-02 14:13:00,085 INFO    Thread-18 :24462 [upload_job.py:push():143] Uploaded file /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/output.log
+2022-12-02 14:13:00,086 INFO    Thread-21 :24462 [upload_job.py:push():143] Uploaded file /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/conda-environment.yaml
+2022-12-02 14:13:00,087 INFO    Thread-20 :24462 [upload_job.py:push():143] Uploaded file /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/wandb-summary.json
+2022-12-02 14:13:00,129 INFO    Thread-17 :24462 [upload_job.py:push():143] Uploaded file /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/requirements.txt
+2022-12-02 14:13:00,335 INFO    Thread-19 :24462 [upload_job.py:push():143] Uploaded file /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/files/config.yaml
+2022-12-02 14:13:00,538 INFO    Thread-12 :24462 [sender.py:transition_state():463] send defer: 9
+2022-12-02 14:13:00,539 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: defer
+2022-12-02 14:13:00,539 INFO    HandlerThread:24462 [handler.py:handle_request_defer():162] handle defer: 9
+2022-12-02 14:13:00,539 DEBUG   SenderThread:24462 [sender.py:send_request():317] send_request: defer
+2022-12-02 14:13:00,539 INFO    SenderThread:24462 [sender.py:send_request_defer():459] handle sender defer: 9
+2022-12-02 14:13:00,539 INFO    SenderThread:24462 [file_pusher.py:join():173] waiting for file pusher
+2022-12-02 14:13:00,539 INFO    SenderThread:24462 [sender.py:transition_state():463] send defer: 10
+2022-12-02 14:13:00,540 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: defer
+2022-12-02 14:13:00,540 INFO    HandlerThread:24462 [handler.py:handle_request_defer():162] handle defer: 10
+2022-12-02 14:13:00,540 DEBUG   SenderThread:24462 [sender.py:send_request():317] send_request: defer
+2022-12-02 14:13:00,540 INFO    SenderThread:24462 [sender.py:send_request_defer():459] handle sender defer: 10
+2022-12-02 14:13:00,705 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: poll_exit
+2022-12-02 14:13:01,443 INFO    SenderThread:24462 [sender.py:transition_state():463] send defer: 11
+2022-12-02 14:13:01,443 DEBUG   SenderThread:24462 [sender.py:send_request():317] send_request: poll_exit
+2022-12-02 14:13:01,444 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: defer
+2022-12-02 14:13:01,444 INFO    HandlerThread:24462 [handler.py:handle_request_defer():162] handle defer: 11
+2022-12-02 14:13:01,444 DEBUG   SenderThread:24462 [sender.py:send_request():317] send_request: defer
+2022-12-02 14:13:01,445 INFO    SenderThread:24462 [sender.py:send_request_defer():459] handle sender defer: 11
+2022-12-02 14:13:01,445 INFO    SenderThread:24462 [sender.py:transition_state():463] send defer: 12
+2022-12-02 14:13:01,445 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: defer
+2022-12-02 14:13:01,445 INFO    HandlerThread:24462 [handler.py:handle_request_defer():162] handle defer: 12
+2022-12-02 14:13:01,446 DEBUG   SenderThread:24462 [sender.py:send():303] send: final
+2022-12-02 14:13:01,446 DEBUG   SenderThread:24462 [sender.py:send():303] send: footer
+2022-12-02 14:13:01,446 DEBUG   SenderThread:24462 [sender.py:send_request():317] send_request: defer
+2022-12-02 14:13:01,446 INFO    SenderThread:24462 [sender.py:send_request_defer():459] handle sender defer: 12
+2022-12-02 14:13:01,447 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: poll_exit
+2022-12-02 14:13:01,447 DEBUG   SenderThread:24462 [sender.py:send_request():317] send_request: poll_exit
+2022-12-02 14:13:01,448 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: poll_exit
+2022-12-02 14:13:01,449 DEBUG   SenderThread:24462 [sender.py:send_request():317] send_request: poll_exit
+2022-12-02 14:13:01,450 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: server_info
+2022-12-02 14:13:01,450 DEBUG   SenderThread:24462 [sender.py:send_request():317] send_request: server_info
+2022-12-02 14:13:01,452 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: get_summary
+2022-12-02 14:13:01,454 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: sampled_history
+2022-12-02 14:13:02,112 INFO    MainThread:24462 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2022-12-02 14:13:02,113 INFO    MainThread:24462 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2022-12-02 14:13:02,114 INFO    MainThread:24462 [wandb_run.py:_footer_sync_info():3333] logging synced files
+2022-12-02 14:13:02,116 DEBUG   HandlerThread:24462 [handler.py:handle_request():139] handle_request: shutdown
+2022-12-02 14:13:02,116 INFO    HandlerThread:24462 [handler.py:finish():814] shutting down handler
+2022-12-02 14:13:02,450 INFO    WriterThread:24462 [datastore.py:close():279] close: /Users/zorilolah/Documents/CryptoNewsFeed/wandb/run-20221202_140816-15vd5xvo/run-15vd5xvo.wandb
+2022-12-02 14:13:03,113 INFO    SenderThread:24462 [sender.py:finish():1331] shutting down sender
+2022-12-02 14:13:03,113 INFO    SenderThread:24462 [file_pusher.py:finish():168] shutting down file pusher
+2022-12-02 14:13:03,113 INFO    SenderThread:24462 [file_pusher.py:join():173] waiting for file pusher
+2022-12-02 14:13:03,381 INFO    MainThread:24462 [internal.py:handle_exit():78] Internal process exited

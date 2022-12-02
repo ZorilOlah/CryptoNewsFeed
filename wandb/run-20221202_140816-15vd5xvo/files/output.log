@@ -1,0 +1,2 @@
+/Users/zorilolah/Documents/CryptoNewsFeed/src/run.py:64: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  df_grid_res = df_grid_res.append(configs_res, ignore_index= True)
