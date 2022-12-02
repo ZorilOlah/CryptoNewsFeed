@@ -22,12 +22,14 @@ class LightBertFinance(pl.LightningModule):
     def validation_step(self, batch, batch_idx):
         input_ids, token_type_ids, attention_mask, labels = batch
         outputs = self.model(input_ids = input_ids, token_type_ids = token_type_ids, attention_mask = attention_mask, labels = labels)
+        # print(outputs['logits'])
+        # print(outputs.logits)
         loss = outputs.loss
         self.log('val_loss', loss)
-        
+        return loss
+    
     # def validation_epoch_end(self, outputs) -> None:
-    #     self.metric(outputs['preds'], outputs['target'])
-    #     self.log('f1_score', self.metric)
+    #     print(outputs)
 
     def configure_optimizers(self):
         optimizer = torch.optim.AdamW(self.model.parameters(), lr = 1e-3)
