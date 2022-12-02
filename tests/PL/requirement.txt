@@ -1,0 +1,9 @@
+torchmetrics
+pytroch_lightning
+tqdm
+transformers
+pandas
+pathlib
+typing
+traceback
+wandb

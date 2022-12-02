@@ -25,9 +25,9 @@ class LightBertFinance(pl.LightningModule):
         loss = outputs.loss
         self.log('val_loss', loss)
         
-    def validation_epoch_end(self, outputs) -> None:
-        self.metric(outputs['preds'], outputs['target'])
-        self.log('f1_score', self.metric)
+    # def validation_epoch_end(self, outputs) -> None:
+    #     self.metric(outputs['preds'], outputs['target'])
+    #     self.log('f1_score', self.metric)
 
     def configure_optimizers(self):
         optimizer = torch.optim.AdamW(self.model.parameters(), lr = 1e-3)

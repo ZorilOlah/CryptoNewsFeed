@@ -12,20 +12,17 @@ from data.utils import three_column_label_transform, select_number_rows
 import pytorch_lightning as pl
 import traceback
 from models.lit_model import LightBertFinance
-import traceback 
 
 titles_excel_file_path = str(Path(__file__).parent) + "/data/200_examples.csv"    
 data_dir = str(Path(__file__).parent) + "/data"
 tokenizer_yiyang = BertTokenizer.from_pretrained('yiyanghkust/finbert-tone') 
 
 model = BertForSequenceClassification.from_pretrained('yiyanghkust/finbert-tone',num_labels=3)
-       
-
 
 sweep_configuration = {
     'method': 'bayes',
     'name': 'sweep',
-    'metric': {'goal': 'maximize', 'name': 'f1_score'},
+    'metric': {'goal': 'maximize', 'name': 'val_loss'},
     'parameters': 
     {
         'batch_size': {'values': [4]},
@@ -40,7 +37,6 @@ sweep_id = wandb.sweep(sweep = sweep_configuration, project = 'swipe_testing')
 
 def main ():
     try:
-        
         logger = pl.loggers.WandbLogger()
         classifier = LightBertFinance(model = model, lr = wandb.config.lr)
 
