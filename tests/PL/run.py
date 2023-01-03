@@ -38,7 +38,6 @@ sweep_id = wandb.sweep(sweep = sweep_configuration, project = 'swipe_testing')
 def main ():
     try:
         logger = pl.loggers.WandbLogger()
-        classifier = LightBertFinance(model = model, lr = wandb.config.lr)
 
         trainer = pl.Trainer(
                             accelerator='cpu',
@@ -53,6 +52,8 @@ def main ():
                                                                 tokenizer = tokenizer_yiyang, 
                                                                 data_dir=data_dir, 
                                                                 target_transforms=three_column_label_transform)
+
+        classifier = LightBertFinance(model = model, lr = wandb.config.lr, total_dataset=total_dataset)
 
         trainer.fit(classifier, train_dataloaders=train_dl, val_dataloaders = val_dl)
     except:

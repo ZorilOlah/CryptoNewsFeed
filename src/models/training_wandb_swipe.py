@@ -63,6 +63,7 @@ class Trainer:
             self.progress.update(1) 
             self.training_outputs[f'epoch_{epoch}'][f'batch_{batch_idx}'] = {'outputs' : outputs, "labels" : labels}
             wandb.log({"train_loss" : loss})
+            
     def eval_model(self, epoch):
         self.model.eval()
         for batch_idx, [input_ids, token_type_ids, attention_mask, labels] in enumerate(self.eval_dataloader):
