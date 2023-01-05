@@ -25,8 +25,9 @@ sweep_configuration = {
     'metric': {'goal': 'maximize', 'name': 'val_loss'},
     'parameters': 
     {
-        'batch_size': {'values': [4]},
-        'epochs': {'values': [5]},
+        'train_batch_size': {'values': [4]},
+        'val_batch_size' : {'values' : [1]},
+        'epochs': {'values': [1]},
         'lr': {'max': 0.1, 'min': 0.0001},
         'wd' : {'max': 0.1, 'min': 0.0001},
         'scheduler_form' : {'values': ['linear']}
@@ -47,13 +48,13 @@ def main ():
                             max_epochs= wandb.config.epochs)
         
         train_dl, val_dl, test_dl, total_dataset = make_dataset(path = titles_excel_file_path, 
-                                                                train_batch_size= wandb.config.batch_size, 
-                                                                val_batch_size= wandb.config.batch_size, 
+                                                                train_batch_size= wandb.config.train_batch_size, 
+                                                                val_batch_size= wandb.config.val_batch_size, 
                                                                 tokenizer = tokenizer_yiyang, 
                                                                 data_dir=data_dir, 
                                                                 target_transforms=three_column_label_transform)
 
-        classifier = LightBertFinance(model = model, lr = wandb.config.lr, total_dataset=total_dataset)
+        classifier = LightBertFinance(model = model, lr = wandb.config.lr, total_dataset=total_dataset )
 
         trainer.fit(classifier, train_dataloaders=train_dl, val_dataloaders = val_dl)
     except:
