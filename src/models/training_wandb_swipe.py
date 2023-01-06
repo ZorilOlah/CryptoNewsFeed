@@ -68,9 +68,11 @@ class Trainer:
         self.model.eval()
         for batch_idx, [input_ids, token_type_ids, attention_mask, labels] in enumerate(self.eval_dataloader):
             with torch.no_grad():
+                print(f' inputs ids : {input_ids}')
                 outputs = self.model(input_ids, token_type_ids = token_type_ids, attention_mask = attention_mask, labels = labels)
             loss = outputs.loss
             logits = outputs.logits
+            print(f' Val logits : {logits}')
             preds = torch.argmax(logits, dim=-1)
             self.eval_outputs[f'epoch_{epoch}'][f'batch_{batch_idx}'] = {'outputs' : outputs, 'labels' : labels}
             wandb.log({"eval_loss" : loss})

@@ -13,7 +13,7 @@ from data.utils import three_column_label_transform, select_number_rows
 from evaluation.evaluation import Results
 import traceback
 
-titles_excel_file_path = str(Path(__file__).parent) + "/data/200_examples.csv"    
+titles_excel_file_path = str(Path(__file__).parent) + "/data/50_examples.csv"    
 data_dir = str(Path(__file__).parent) + "/data"
 device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
 tokenizer_yiyang = BertTokenizer.from_pretrained('yiyanghkust/finbert-tone') 

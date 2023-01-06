@@ -10,6 +10,7 @@ class LightBertFinance(pl.LightningModule):
                  model,
                  lr,
                  total_dataset,
+                 tokenizer,
                  ):
         super().__init__()
         self.model = model
@@ -17,14 +18,16 @@ class LightBertFinance(pl.LightningModule):
         self.lr = lr
         self.class_weight = compute_class_weight(class_weight='balanced', classes = np.unique(total_dataset.labels), y = total_dataset.labels)
         self.criterion = torch.nn.CrossEntropyLoss(weight = torch.tensor(self.class_weight, dtype = torch.float32))
-        self.tz = BertTokenizer.from_pretrained('yiyanghkust/finbert-tone') 
+        self.tz = tokenizer 
        
     def training_step(self, batch, batch_idx):
         input_ids, token_type_ids, attention_mask, labels = batch
-        # print(f'\nTraining Input ids : {input_ids}')
-        print(f'\nTraining text : {[self.tokens_to_string(ids) for ids in input_ids]}\n')
+        # print(f'\nTraining  Input ids : {input_ids}')
+        # print(f'Training  at mask {attention_mask}')
+        # print(f'Training  tti {token_type_ids}')
+        # print(f'\nTraining text : {[self.tokens_to_string(ids) for ids in input_ids]}\n')
         outputs = self.model(input_ids = input_ids, token_type_ids = token_type_ids, attention_mask = attention_mask, labels = labels)
-        print(f'\nlogits in train step : {outputs.logits}\n')
+        # print(f'\nlogits in train step : {outputs.logits}\n')
         # loss = outputs.loss
         # print(f'In training step : {outputs.logits}')
         loss = self.criterion(input = outputs.logits, target =  labels)
@@ -34,12 +37,14 @@ class LightBertFinance(pl.LightningModule):
     def validation_step(self, batch, batch_idx):
         input_ids, token_type_ids, attention_mask, labels = batch
         # print(f'\nInput ids : {input_ids}')
-        print(f'\nVal text : {self.tokens_to_string(input_ids[0])}\n')
+        # print(f'at mask {attention_mask}')
+        # print(f'tti {token_type_ids}')
+        # print(f'\nVal text : {self.tokens_to_string(input_ids[0])}\n')
         outputs = self.model(input_ids = input_ids, token_type_ids = token_type_ids, attention_mask = attention_mask, labels = labels)
-        print(f'\nlogits in val step : {outputs.logits}\n')
+        # print(f'\nlogits in val step : {outputs}\n')
         # print(outputs['logits'])
-        # print(outputs.logits)
-        loss = outputs.loss
+        # print(f'\n val loss : {outputs.loss}\n')
+        loss = self.criterion(input = outputs.logits, target =  labels)
         self.log('val_loss', loss)
         return outputs.logits
     
@@ -47,7 +52,7 @@ class LightBertFinance(pl.LightningModule):
         print(f'in end : {outputs}')
 
     def configure_optimizers(self):
-        optimizer = torch.optim.AdamW(self.model.parameters(), lr = 1e-3)
+        optimizer = torch.optim.AdamW(self.model.parameters(), lr = self.lr)
         lr_scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=1)
         return [optimizer], [lr_scheduler]
     
